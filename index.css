@@ -109,6 +109,9 @@ footer{
 footer a{
     color: white;
 }
+articles h1{
+    padding-left: 40px;
+}
 #infos   a:hover {
     padding-bottom: 10px;
     border-bottom: solid;
