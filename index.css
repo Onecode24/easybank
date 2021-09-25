@@ -1,0 +1,179 @@
+body{
+    margin: 0px;
+    font-size: 18px;
+    font-family: public;
+}
+@font-face {
+    font-family: public;
+    src: url(Public_Sans/PublicSans-VariableFont_wght.ttf);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    margin-top: 25px;
+}
+header .request{
+    margin-top: -10px;
+}
+header a{
+    color: black;
+}
+button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background: linear-gradient(to right ,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+    border: none;
+    border-radius: 60px;
+}
+button a{
+    color: white;
+}
+#infos{
+    display: flex;
+    justify-content: space-around;
+    width: 33%;
+}
+inside{
+    padding-top: 25px;
+
+    display: flex;
+    background: linear-gradient(hsl(0, 0%, 98%),white);
+
+}
+.reason{
+    background-color: hsl(0, 0%, 98%);
+    padding-top: 60px; 
+    padding-bottom: 20px; 
+    margin-bottom: 75px;    
+}
+.reason h1{
+     padding-bottom: 20px;   
+}
+.reason p{
+    width: 50%;
+    padding-bottom: 20px;   
+
+}
+.leftPart{
+    padding-left: 100px;
+}
+.leftPart h1{
+    padding-top: 100px;
+    width: 100%;
+    font-size: 50px;
+}
+.leftPart p{
+    padding-top: 30px;
+    width: 75%;
+    margin-bottom: 50px;
+}
+.leftPart .request{
+    margin-left: 75px;
+}
+.rightPart{
+    background-image: url(images/bg-intro-desktop.svg);
+}
+.card{
+    width: 20%;
+}
+.devs{
+    display: flex;
+    justify-content: space-around;
+}
+.allArticles{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.prestation{
+    width: 20%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    background-color:  hsl(233, 26%, 24%);
+    color: white;
+    padding-top: 25px;
+}
+footer a{
+    color: white;
+}
+#infos   a:hover {
+    padding-bottom: 10px;
+    border-bottom: solid;
+    border-bottom-color: hsla(136, 65%, 51%, 42);
+}
+.prestation a{
+    color: black;
+}
+.prestation a:hover{
+    color: hsl(192, 70%, 51%);
+}
+.middle a:hover{
+    color: hsl(136, 65%, 51%);
+}
+@media screen and (max-width : 475px) {
+    inside{
+        display: grid;
+        align-items: flex-end;
+    }
+    body{
+        width: 200%;
+    }
+    .reason{
+        text-align: center;
+    }
+    .reason p{
+        text-align: center;
+        width: 75%;
+        margin-left: 12.5%;
+    }
+    .devs{
+        display: grid;
+        width: 100%;
+    }
+    .card{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .card p{
+        width: 50%;
+        margin-left: 25%;
+    }
+    articles h1{
+        text-align: center;
+    }
+    .allArticles{
+        display: grid;
+    }
+    .prestation{
+        width: 50%;
+        text-align: center;
+        margin-left: 25%;
+    }
+    .prestation img{
+        width: 75%;
+    }
+    footer{
+        display: grid;
+        justify-content: left;
+        padding-left: 25px ;
+    }
+    .middle{
+        margin-bottom: 25px;
+    }
+    .social{
+        margin-bottom: 25px;
+    }
+
+}
