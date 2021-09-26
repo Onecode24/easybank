@@ -131,6 +131,9 @@ articles h1{
         display: grid;
         align-items: flex-end;
     }
+    .request button{
+        line-height: 5px;
+    }
     body{
         width: 200%;
     }
@@ -149,6 +152,7 @@ articles h1{
     .card{
         width: 50%;
         margin-left: 25%;
+        margin-bottom: 25px;
     }
     .card p{
         width: 50%;
